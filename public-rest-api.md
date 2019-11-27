@@ -51,7 +51,7 @@ Current exchange trading rules and symbol information
 
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
-symbol | STRING | YES |
+market | STRING | NO | if not set, all symbols
 
 **Response:**
 ```javascript
@@ -61,12 +61,15 @@ symbol | STRING | YES |
   "serverTime": 1550925268628,
   "symbols": [
     {
-      "symbol": "BTC/KRW",
+      "symbol": "BTC/USDT",
       "baseName": "Bitcoin",
       "baseAsset": "BTC",
-      "quoteAsset": "KRW",
-      "minPrice": "1000",
-      "minQty": ".003"
+      "quoteAsset": "USD",
+      "minQty": "10",
+      "pricePrecision": "1",
+      "amountPrecision": "3",
+      "priceUnit": "0.1",
+      "amountUnit": "0.001"
     }
 }
 ```

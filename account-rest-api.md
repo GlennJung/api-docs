@@ -101,7 +101,8 @@ signature | STRING | YES |
       "usingQuantity": "0",
       "marginQuantity": "0",
       "marginPrice": "0",
-      "evaluationPrice": "22010"
+      "evaluationPrice": "22010",
+      "side": "BUY"
     }
   ]
 }

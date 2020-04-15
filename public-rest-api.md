@@ -1,6 +1,6 @@
 # Public Rest API for Exchange (2019-02-23)
 # General API Information
-* The base endpoint is: **http://127.0.0.1**
+* The base endpoint is: **https://api.bispex.com:3000**
 * All endpoints return either a JSON object or array.
 * Data is returned in **ascending** order. Oldest first, newest last.
 * All time and timestamp related fields are in milliseconds.

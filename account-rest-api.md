@@ -1,6 +1,5 @@
 # Account Rest API for Exchange 
 # General API Information
-* The base endpoint is: **https://api.beeblock.co.kr:3000**
 * All endpoints return either a JSON object or array.
 * All time and timestamp related fields are in milliseconds.
 * HTTP `4XX` return codes are used for for malformed requests;

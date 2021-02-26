@@ -4,6 +4,7 @@
 **supported**.
 * The use of any other streams, endpoints, parameters, or payloads, etc. is **not supported**; **use them at your own risk and with no guarantees.**
 
+* The base endpoint is: https://api.beeblock.co.kr:3000
 
 Name | Description
 ------------ | ------------ 

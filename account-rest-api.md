@@ -1,6 +1,6 @@
-# Account Rest API for Exchange (2019-03-10)
+# Account Rest API for Exchange 
 # General API Information
-* The base endpoint is: **https://api.bispex.com:3000**
+* The base endpoint is: **https://api.beeblock.co.kr:3000**
 * All endpoints return either a JSON object or array.
 * All time and timestamp related fields are in milliseconds.
 * HTTP `4XX` return codes are used for for malformed requests;
@@ -48,9 +48,6 @@
 * ExchangeType
 
 `LOCAL`: local currency exchanges(piat currency)
-
-`FUTURE`: future exchanges
-
 
 ### Balance information (USER_DATA)
 ```

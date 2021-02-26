@@ -1,6 +1,6 @@
-# Order Rest API for Exchange (2019-05-15)
+# Order Rest API for Exchange 
 # General API Information
-* The base endpoint is: **https://api.bispex.com:3000**
+* The base endpoint is: **https://api.beeblock.com:3000**
 * All endpoints return either a JSON object or array.
 * Data is returned in **ascending** order. Oldest first, newest last.
 * All time and timestamp related fields are in milliseconds.

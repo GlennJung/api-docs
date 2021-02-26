@@ -50,8 +50,6 @@
 
 `LOCAL`: local currency exchanges(piat currency)
 
-`FUTURE`: future exchanges
-
 
 ### New order (TRADE)
 ```

@@ -101,7 +101,7 @@ MARKET | `quantity`
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X POST 'https://api.bispex.com:3000/v1/order' -d 'exchangeType=LOCAL&price=0.1&quantity=1&side=BUY&symbol=LTC/BTC&type=LIMIT'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X POST 'https://api.beeblock.co.kr/v1/order' -d 'exchangeType=LOCAL&price=0.1&quantity=1&side=BUY&symbol=LTC/BTC&type=LIMIT'
 
 
 **Response RESULT:**
@@ -153,7 +153,7 @@ signature | STRING | YES |
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X POST 'https://api.bispex.com:3000/v1/order/cancel' -d 'exchangeType=LOCAL&origClientOrderId=201903100614344832&origOrderId=344832&symbol=BTC/KRW'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X POST 'https://api.beeblock.co.kr/v1/order/cancel' -d 'exchangeType=LOCAL&origClientOrderId=201903100614344832&origOrderId=344832&symbol=BTC/KRW'
 
 
 **Response:**
@@ -198,7 +198,7 @@ signature | STRING | YES |
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.bispex.com:3000/v1/orders?exchangeType=LOCAL&symbol=BTC/KRW&signature=710e769778d4e9d84611dc78200316f302f36e027e78843989fa7b14b7902957'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.beeblock.co.kr/v1/orders?exchangeType=LOCAL&symbol=BTC/KRW&signature=710e769778d4e9d84611dc78200316f302f36e027e78843989fa7b14b7902957'
     ```
 
 **Response:**
@@ -267,7 +267,7 @@ signature | STRING | YES |
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.bispex.com:3000/v1/trades?endTime=1552133565000&exchangeType=LOCAL&startTime=1552118360000&symbol=BTC/KRW&signature=d0ac97f56cb4dfe29cd40a8532639d05525313ff895dff69137f0adc6a1bbf19'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.beeblock.co.kr/v1/trades?endTime=1552133565000&exchangeType=LOCAL&startTime=1552118360000&symbol=BTC/KRW&signature=d0ac97f56cb4dfe29cd40a8532639d05525313ff895dff69137f0adc6a1bbf19'
     ```
 
 **Response:**
@@ -350,7 +350,7 @@ signature | STRING | YES |
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.bispex.com:3000/v1/tradeStatus?ClientOrderId=201903091212229590&OrderId=229590&exchangeType=LOCAL&symbol=BTC/KRW&signature=f65a7c7fadef0c06699f7361ae01653e117883f3c734f2b00ac576f7b1a6da76'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.beeblock.co.kr/v1/tradeStatus?ClientOrderId=201903091212229590&OrderId=229590&exchangeType=LOCAL&symbol=BTC/KRW&signature=f65a7c7fadef0c06699f7361ae01653e117883f3c734f2b00ac576f7b1a6da76'
     ```
 
 **Response:**

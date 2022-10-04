@@ -77,7 +77,7 @@ signature | STRING | YES |
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.bispex.com:3000/v1/balances?currency=PHP&exchangeType=LOCAL&signature=95fe30a84085c3ca6c2f387bd98bb21053e52e58b8fe14dd6ba533bed805fcab'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.beeblock.co.kr/v1/balances?currency=PHP&exchangeType=LOCAL&signature=95fe30a84085c3ca6c2f387bd98bb21053e52e58b8fe14dd6ba533bed805fcab'
     ```
 
 **Response:**
@@ -143,7 +143,7 @@ Type | Additional mandatory response parameters
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.bispex.com:3000/v1/ioList?endTime=1552089600000&exchangeType=LOCAL&startTime=1552089600000&signature=2bf2511d60f0bd85385881de1c42270e9ab5a1d6e792b108fc6004c0c7c60f5d'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.beeblock.co.kr/v1/ioList?endTime=1552089600000&exchangeType=LOCAL&startTime=1552089600000&signature=2bf2511d60f0bd85385881de1c42270e9ab5a1d6e792b108fc6004c0c7c60f5d'
     ```
 
 **Response:**
@@ -210,7 +210,7 @@ Type | Additional mandatory response parameters
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.bispex.com:3000/v1/coinIoList?endTime=1552089600000&exchangeType=LOCAL&startTime=1552089600000&signature=2bf2511d60f0bd85385881de1c42270e9ab5a1d6e792b108fc6004c0c7c60f5d'
+    [linux]$ curl -H "X-BIFRAX-APIKEY: testApiKey" -X GET 'https://api.beeblock.co.kr/v1/coinIoList?endTime=1552089600000&exchangeType=LOCAL&startTime=1552089600000&signature=2bf2511d60f0bd85385881de1c42270e9ab5a1d6e792b108fc6004c0c7c60f5d'
     ```
 
 **Response:**
